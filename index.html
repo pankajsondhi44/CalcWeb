@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <div id="all">
+        <div>
+            <input id="field" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' placeholder="Enter a value" />
+        </div>
+        <table id="buttons">
+            <tr>
+                <td><button id="7">7</button></td>
+                <td><button id="8">8</button></td>
+                <td><button id="9">9</button></td>
+                <td><button id="c">C</button></td>
+                <td><button id="backspace"><</button></td>
+            </tr>
+            <tr>
+                <td><button id="4">4</button></td>
+                <td><button id="5">5</button></td>
+                <td><button id="6">6</button></td>
+                <td><button id="/">/</button></td>
+                <td><button id="x">x</button></td>
+            </tr>
+            <tr>
+                <td><button id="1">1</button></td>
+                <td><button id="2">2</button></td>
+                <td><button id="3">3</button></td>
+                <td><button id="-">-</button></td>
+                <td><button id="square">x<sup>2</sup></button></td>
+            </tr>
+            <tr>
+                <td><button id=".">.</button></td>
+                <td><button id="0">0</button></td>
+                <td><button id="=">=</button></td>
+                <td><button id="+">+</button></td>
+                <td><button id="cube">x<sup>3</sup></button></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
